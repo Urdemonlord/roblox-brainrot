@@ -3,7 +3,6 @@
 -- data: Spawner, Carry, Income, Events and Rebirth all read and write
 -- through this module, and the client only ever sees it via attributes
 -- and RemoteEvents.
-local Players = game:GetService("Players")
 local Config = require(game:GetService("ReplicatedStorage"):WaitForChild("Shared"):WaitForChild("Config"))
 local BrainrotData = require(game:GetService("ReplicatedStorage"):WaitForChild("Shared"):WaitForChild("BrainrotData"))
 

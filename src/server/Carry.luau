@@ -104,6 +104,9 @@ function Carry.takeFromBelt(record, player)
 	if not playerRecord or playerRecord.carried then
 		return false
 	end
+	if not playerRecord.plotIndex then
+		return false -- no base to take it home to
+	end
 	if record.location ~= "belt" then
 		return false
 	end

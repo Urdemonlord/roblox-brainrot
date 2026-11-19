@@ -49,7 +49,7 @@ function Remotes.setup()
 	end)
 
 	requestRebirth.OnServerEvent:Connect(function(player)
-		local ok, msg = Rebirth.tryRebirth(player)
+		local _ok, msg = Rebirth.tryRebirth(player)
 		Remotes.notify(player, msg)
 	end)
 end

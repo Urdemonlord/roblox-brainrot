@@ -3,7 +3,6 @@
 -- The client never owns game state: every number comes from player
 -- attributes the server syncs, every action is a RemoteEvent.
 local Players = game:GetService("Players")
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 local player = Players.LocalPlayer
 
